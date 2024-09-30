@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Landing Page</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.10.0/font/bootstrap-icons.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/typicons/2.1.2/typicons.css">
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+ 
+  <head>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  </head>
+  <body class="bg-white text-gray-800 overflow-x-hidden">
+  
+   <!-- Header Section -->
+<header class="p-6 pt-2 flex flex-col lg:flex-row justify-between items-center">
+  <!-- Navigation links -->
+ 
+  <div class="flex left-2 justify-start space-x-6 mt-4">
+    <nav>
+     <ul class="flex left-2  space-x-6 mt-0 justify-start mb-5 text-blue-950  ">
+       <li><a href="index.html" class="hover:text-gray-600 ml-8 mr-8 text-sm ">Home</a></li>
+       <li><a href="about us.html" class="hover:text-gray-600 mr-8 text-sm ">About</a></li>
+       <li><a href="contact.html" class="hover:text-gray-600 text-sm">Contact</a></li>
+     </ul>
+   </nav>
+    </div>
+
+  <!-- Site title / Image Section -->
+  <div class="w-full flex justify-center mb-6 lg:mb-0 lg:w-auto z-10">
+    <img src="assets/Landie.png" alt="Landing Image" 
+         class="w-[150px] lg:w-[100px] h-auto object-contain">
+  </div>
+
+
+  <!-- 'Buy Now' button -->
+  <div class="flex justify-center lg:justify-end lg:mr-20">
+    <a href="#" class="bg-blue-950 text-white  px-8 py-1 md:px-10 lg:px-12 hover:bg-blue-800 z-10 relative block">Buy Now</a>
+  </div>
+</header>
+
+    <!-- Hero Section -->
+    <section id="home" class="relative container ml-0 mt-10 px-6 py-16 flex flex-col md:flex-row ">
+      <!-- Text content -->
+<div class="md:w-1/2 space-y-10 pt-4 ml-20 z-10 relative ">
+  <h1 class="text-4xl mt-10 font-semibold text-left leading-tight mb-4">
+    Introduce Your Product Quickly & Effectively
+  </h1>
+  <p class="mb-6 text-gray-600  text-pretty text-left z-10 relative">
+    Your comprehensive solution for managing attendance, timesheets, inventory, and clients with ease.
+  </p>
+
+  <!-- Call to Action Buttons -->
+  <div class="flex space-x-4 justify-start">
+    <a href="#" class="bg-blue-950 text-white px-6 py-2 rounded hover:bg-blue-800">
+      Get Started for Free
+    </a>
+    <a href="#" class="border border-blue-950 text-blue-950 px-6 py-2 rounded hover:bg-blue-100">
+      Schedule a Demo
+    </a>
+  </div>
+</div>
+
+<!-- Hero Image -->
+<div class="w-full flex-grow relative h-screen">
+  <img src="assets/hero-image.svg" alt="Hero Image" 
+       class="absolute top-[-40px] right-[0] bottom-[-200px] left-[200] transform scale-100 md:scale-125 lg:scale-150 xl:scale-175 object-contain h-full w-full md:w-auto">
+</div>
+
+    </section>
+    <!--service section -->
+    <section class="relative container mx-auto mt-60 px-6 py-28 flex flex-col md:flex-row items-center">
+      <!-- Text Section -->
+      <div class="md:w-1/2 flex flex-col justify-start ml-20 mt-30 mr-20  space-y-6">
+        <h2 class="text-4xl font-bold mb-4 text-left leading-tight">  Streamline Your Operations, Increase Productivity
+        </h2>
+        <p class="text-md text-left mb-8 text-gray-600 justify-center  text-pretty leading-relaxed">
+          Workmentor is a powerful, all-in-one platform designed to simplify your business operations. 
+          From managing  attendance to  tracking inventory and client  information, Workmentor ensures 
+          everything  runs  smoothly, so you  can  focus on what matters most—growing  your business. 
+         Our  intuitive  interface  and robust features make managing teams and projects a breeze.
+     </p>
+    
+        <!-- Services Icons Section -->
+        <div class="grid grid-cols-1 md:grid-cols-2  mr-20 gap-8">
+          <div class="flex flex-col items-center text-center">
+            <img src="assets/icon1.svg" alt="Service Icon 1" class="mx-auto mb-4 w-12 h-12">
+            <h3 class="text-xl font-bold mb-2">Title Goes Here</h3>
+            <p class="text-gray-600">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean commodo ligula eget dolor.</p>
+          </div>
+          <div class="flex flex-col items-center text-center">
+            <img src="assets/icon1.svg" alt="Service Icon 2" class="mx-auto mb-4 w-12 h-12">
+            <h3 class="text-xl font-bold mb-2">Title Goes Here</h3>
+            <p class="text-gray-600">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean commodo ligula eget dolor.</p>
+          </div>
+        </div>
+      </div>
+    
+      <!-- Image Section -->
+      <div class="md:w-1/2 flex justify-center ml-10 mr-20 md:justify-end mt-20 md:mt-0">
+        <img src="assets/undraw_mobile_login.svg" alt="intro" class="w-full h-auto md:w-5/6 lg:w-4/5 xl:w-full">
+      </div>
+    </section>
+
+
+ 
+
+<!-- Feature Section 1 -->
+<section class="relative container mx-auto mt-30 px-6 py-28 flex flex-col md:flex-row items-center">
+<!-- Image Section -->
+<div class="md:w-1/2 flex justify-center mt-20 md:mt-0">
+  <img src="assets/intro-copy.svg" alt="features" class="w-3/4 h-auto md:w-2/3 lg:w-1/2 xl:w-2/3">
+</div>
+
+  <div class="w-full md:w-1/2">
+    <h2 class="text-4xl font-semibold mb-10  ml-32 justify-center  leading-tight">Why Choose Workmentor?</h2>
+
+    <!-- Feature 1 icons Section -->
+    <div class="grid grid-cols-1 md:grid-cols-2 mt-10 mr-20 gap-8">
+      <div class="flex flex-col  text-pretty text-center md:text-left">
+        <img src="assets/icon1.svg" alt="Service Icon 1" class="mx-auto mb-4 w-12 h-12">
+        <h3 class="text-xl font-bold mb-2 ml-10">Attendance & Timesheets</h3>
+        <p class="text-gray-600 ml-10">Easily track employee attendance, log hours worked, and generate detailed timesheets to ensure accurate payroll and reporting.</p>
+      </div>
+      <div class="flex flex-col  text-pretty text-center md:text-left">
+        <img src="assets/icon1.svg" alt="Service Icon 2" class="mx-auto mb-4 w-12 h-12">
+        <h3 class="text-xl font-bold mb-2 ml-10">Leave Management</h3>
+        <p class="text-gray-600 ml-10">Simplify leave management with a streamlined approval process, real-time tracking, and customizable leave policies.</p>
+      </div>
+    </div>
+  </div>
+  
+ 
+</section>
+
+
+<!-- Feature Section 2 -->
+
+<section class="relative container mx-auto mt-30 px-6 py-28 flex flex-col md:flex-row items-center">
+  <!-- Feature Icons Section -->
+  <div class="flex flex-col md:flex-row w-full gap-8">
+
+     <!--  Image -->
+     <div class="md:w-1/2 flex justify-center mt-20 md:mt-0">
+      <img src="assets/intro copy.png" alt="intro" class="w-3/4 h-auto md:w-2/3 lg:w-1/2 xl:w-2/3">
+    </div>
+
+    
+    <!--  Text Content -->
+<div class="grid grid-cols-1 mr-20  md:grid-cols-2 gap-4 md:w-1/2"> 
+  <div class="flex flex-col  text-pretty text-center md:text-left">
+    <img src="assets/icon1.svg" alt="Service Icon 1" class="mx-auto mb-2 w-10 h-10"> 
+    <h3 class="text-xl font-bold mb-2 ml-10 text-left ">Inventory Management</h3> 
+    <p class="text-gray-600 ml-10">Keep track of all your inventory in real time. Manage stock levels, create alerts, and view inventory reports—all in one place.</p> <!-- Reduced line height -->
+  </div>
+  <div class="flex flex-col text-pretty text-center md:text-left">
+    <img src="assets/icon1.svg" alt="Service Icon 2" class="mx-auto mb-2 w-10 h-10"> 
+    <h3 class="text-xl font-bold mb-2  text-left ml-10 ">Client Management</h3> 
+    <p class="text-gray-600 ml-10">Stay on top of client relationships with built-in tools for tracking projects, communication, and deadlines.</p> <!-- Reduced line height -->
+  </div>
+</div>
+    </div>
+</section>
+
+
+  <!-- Feature Section 3 -->
+  <section class="relative container mx-auto mt-30 px-6 py-28 flex flex-col md:flex-row items-center">
+    <!-- Image Section -->
+    <div class="md:w-1/2 flex justify-center mt-20 md:mt-0">
+      <img src="assets/cta.svg" alt="CTA" class="w-3/4 h-auto md:w-2/3 lg:w-1/2 xl:w-2/3">
+    </div>
+    
+      <div class="w-full md:w-1/2">
+        
+    
+        <!-- Feature icons Section -->
+        <div class="grid grid-cols-1 md:grid-cols-2 mt-10 mb-20 mr-20 gap-8">
+          <div class="flex flex-col  text-pretty text-center md:text-left">
+            <img src="assets/icon1.svg" alt="Service Icon 1" class="mx-auto mb-4 w-12 h-12">
+            <h3 class="text-xl font-bold mb-2 ml-10 text-left">Timesheet Reports</h3>
+            <p class="text-gray-600 ml-10">Generate and analyze detailed timesheet reports to gain insights into team performance and project timelines.</p>
+          </div>
+          <div class="flex flex-col  text-pretty text-center md:text-left">
+            <img src="assets/icon1.svg" alt="Service Icon 2" class="mx-auto mb-4 w-12 h-12">
+            <h3 class="text-xl font-bold mb-2 text-left ml-10">Secure and Scalable</h3>
+            <p class="text-gray-600 ml-10"> Workmentor is built to scale your business while maintaining the highest level of security to protect your data.</p>
+          </div>
+         
+        </div>
+
+        <a href="#" class="bg-blue-950 text-white ml-10 px-8 py-2 justify-left rounded">Purchase Now</a>
+      </div>
+      
+     
+    </section>
+    
+    
+  
+      
+    
+
+  <!-- Testimonial Section -->
+  <section class="bg-white py-16">
+    <div class="container mx-auto my-auto px-6 text-center mt-30 mb-30 ">
+      <h2 class="text-3xl font-bold mb-6">   What Our Clients Say </h2>
+      <p>  “Workmentor has transformed the way we manage our team’s productivity. The timesheet feature alone has saved us countless hours!”* – [Client Name], CEO at [Company Name].
+
+      </p>
+        
+          <p>“With Workmentor, we no longer struggle with managing attendance and leaves. Everything is automated and transparent.” – [Client Name], HR Manager at [Company Name].
+</p>
+
+<div class="flex my-6 space-x-4 justify-center ">
+  <a href="#" class="bg-blue-950 text-white px-6 py-2 rounded">Get Started</a>
+  <a href="#" class="border border-blue-950 text-blue-950 px-6 py-2 rounded">Schedule a Demo</a>
+</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+<!-- Testimonial Section 2 -->
+<section class="bg-gray-100 py-32">
+  <div class="container mx-auto my-6 px-6 text-center">
+    <h1 class="font-bold mb-6 justify-center my-auto mx-auto text-3xl ">Start Managing Your Business Effortlessly
+    </h1>
+
+<div class="flex space-x-4 items-center  my-6 justify-center">
+<a href="#" class="bg-blue-950 text-white px-6 py-2 rounded">Try Workmentor for Free</a>
+<a href="#" class="border border-blue-950 text-blue-950 px-6 py-2 rounded">Schedule Your Free Demo Today</a>
+</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+  <!-- Footer Section -->
+  <footer class="bg-blue-100 p-6 text-center">
+    <p>&copy; 2024 Workmentor | Privacy Policy |Terms of Services</p>
+   
+   <!-- Navigation links -->
+    <div class="flex left-2 justify-start space-x-6 mt-4">
+   <nav>
+    <ul class="flex left-2  space-x-6 mt-6 justify-start  text-blue-950  ">
+      <li><a href="index.html" class="hover:text-gray-600 ml-8 mr-8 text-sm ">Home</a></li>
+      <li><a href="about us.html" class="hover:text-gray-600 mr-8 text-sm ">About</a></li>
+      <li><a href="contact.html" class="hover:text-gray-600 text-sm">Contact</a></li>
+    </ul>
+  </nav>
+   </div>
+    <div class="flex right-2 justify-end space-x-6 mt-4">
+      <a href="#"><img src="assets/facebook.svg" alt="Facebook"></a>
+      <a href="#"><img src="assets/linkedin.svg" alt="LinkedIn"></a>
+      <a href="#"><img src="assets/twitter.svg" alt="Twitter"></a>
+     <a href="#"><img src="assets/youtube.svg" alt="Facebook"></a>
+      <a href="#"><img src="assets/instagram.svg" alt="Twitter"></a>
+  
+    </div>
+  </footer>
+
+</body>
+</html>
